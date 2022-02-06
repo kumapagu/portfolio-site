@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 記載番号：2 -->
+    <title>MapInfo（公園情報共有アプリ）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Naoyuki Kumagai</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
+          <h2>MapInfo（公園情報共有アプリ）</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+            <img src="../images/MapInfo.png" class="show-pc">
+            <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
+            <img src="../images/MapInfo.png" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <!-- 記載番号：3 -->
+            <p class="p-work-firstview__text">Python / Django REST framework / Vue.js / JavaScript / SQLite / GitHub / Heroku / Visual Studio Code</p>
+            <!-- 記載番号：4 -->
+            <p class="p-work-firstview__text-link"><a href="https://github.com/kumapagu/mapInfo" target="_blank">https://github.com/kumapagu/mapInfo</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <!-- 記載番号：5 -->
+                  <td>130時間</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <!-- 記載番号：6 -->
+                  <td><a href="https://mapinfo-6239.herokuapp.com/" target="_blank">https://mapinfo-6239.herokuapp.com/</a></td>
+                </tr>
+                <tr>
+                  <th>ID</th>
+                  <!-- 記載番号：7 -->
+                  <td>user</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：8 -->
+                  <td>mapinfo1234</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：11 -->
+            <div class="p-work-outline__text">
+              <p>
+                オリジナルアプリケーションとして、公園情報を共有する地図アプリを開発しました。
+                <br>
+                主な機能は、公園情報の登録、および地図上で登録されている情報の確認です。
+              </p>
+              <p>
+                トップページにアクセスすると、様々な趣味のジャンルについて表示されています。それをクリックすると、そのジャンルにおけるタイムライン機能を閲覧することができます。
+              </p>
+              <p>
+                トップページにアクセスすると、Google Mapが表示されます。登録したい位置をクリックして、情報を登録します。
+              </p>
+              <p>
+                また、登録されている公園は地図上にマーカーが立っており、クリックすることで情報を確認することができます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発に至った経緯</h3>
+              <!-- 記載番号：12 -->
+              <div class="p-work-about__item-block">
+                <p>
+                  子育てをする上で、公園を利用する機会は多く少しの時間でも子供を遊ばせるために利用をしているのですが、
+                </p>
+                <p>
+                  「たまには違う公園で子供を遊ばせてあげたい」<br>
+                  「買い物や保育園の送迎の途中で遊ばせたい」<br>
+                  「遠出をした際に少し子供を遊ばせたい」
+                </p>
+                <p>
+                  そう思ったときに意外と家から少し離れるとどこに公園があるかがわからないという悩みがありました。
+                </p>
+                <p>
+                  私自身、3歳の子供がおり良く公園を利用しているので、近い年代の子供がいる家庭では同様の課題を感じているのではと考えました。<br>
+                  そこで、自分が知っている近所の公園の情報を共有しあえるアプリケーションを作成することにいたしました。
+                </p>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で工夫したこと</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/svUVcUP7zw0" title="YouTube video player" frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin:20px 0 0 130px;"></iframe>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                
+                <!-- 記載番号：13 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    1つ目は、Map上でクリックをした際のマーカーの挙動や登録済みの公園の所在地にマーカーを設置し、情報を持たせることです。<br>
+                    googleMapsAPIを使用して実装をしたのですが、関連する情報が少なかったため試行錯誤を繰り返しながら関数などを追加していき理想通りの挙動を実現することができました。
+                  </p>
+                  <p>
+                    2つ目は、ページ遷移後のMapの表示位置です。<br>
+                    ページ遷移後にMapの画面に戻ると常に初期表示の位置にMapが戻ってしまっていたので、以下のような設定を試みました。
+                  </p>
+                  <p>
+                    ■Map上で詳細ページへ遷移後に、再びMapに戻った際に選択した公園を中心にMapを表示<br>
+                    ■Map上で位置を指定して、情報登録画面に遷移後に再びMapに戻った際に選択した位置を中心にMapを表示
+                  </p>
+                  <p>
+                    この設定をするにあたり、ページ遷移をすると選択した位置情報が消えてしまうという課題に直面しました。
+                    試行錯誤した結果、セッションストレージへ最後に選択した位置情報を保存することで解決することができました。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>今後実装したいと思っていること</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/syousai.png">
+                </div>
+                <!-- 記載番号：14 -->
+                <div class="p-work-about__item-block-text">
+                  <p>公園の情報量を増やして、詳細画面で表示する情報を増やしていきたいと思っております。</p>
+                  <p>
+                    1つ目は、画像の投稿機能です。<br>
+                    どんな公園かがわかるために、画像があるとわかりやすいため。djangoのAPIとVue.js間のデータのやりとりがうまく行かずに後回しにしてしまっていたので、今後優先して実装したいと考えております。
+                  </p>
+                  <p>
+                    2つ目は、コメント機能です。公園についてコメントを残せるようになれば、より詳細な情報を得ることができるようになると考えております。
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-others">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OTHERS<span>その他実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="p-work-others__list">
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="01.html" style="background-image:url('../images/furima.png');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：15 -->
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <!-- 記載番号：16 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="02.html" style="background-image:url('../images/MapInfo.png');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：17 -->
+                  <h3>MapInfo（公園情報共有アプリ）</h3>
+                  <!-- 記載番号：18 -->
+                  <p>Python / Django REST framework / Vue.js / JavaScript / SQLite / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Naoyuki Kumagai.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
